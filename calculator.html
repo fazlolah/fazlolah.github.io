@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        input {
+            height: 100px;
+            text-align: center;
+            font-size: 30px;
+        }
+        div{
+            text-align: center;
+        }
+    </style>
+    <script src="myScript.js"></script>
+</head>
+
+<body style="font-size: 40px;">
+    <div>
+        <input type="number" name="" id="first_num">
+        <select style="font-size: xx-large;" Name="operators" Size="1" id="operator">
+            <option> + </option>
+            <option> - </option>
+            <option> x </option>
+            <option> / </option>
+            <option> ^ </option>
+        </select>
+        <input type="number" name="" id="second_num"> =
+        <input type="number" name="" id="answer_box" disabled>
+    </div>
+    <div><br><button style="font-size: xx-large;" type="button" onclick="Calculate()">Calculate</button></div>
+
+</body>
+
+</html>
